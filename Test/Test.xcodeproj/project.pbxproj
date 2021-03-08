@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9D2B134E24C9B82B0075C744 /* OnGoingCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2B133D24C9B82A0075C744 /* OnGoingCall.swift */; };
+		9D2B134F24C9B82B0075C744 /* Sample.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D2B133E24C9B82A0075C744 /* Sample.storyboard */; };
+		9D2B135024C9B82B0075C744 /* OnGoingCall.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D2B133F24C9B82A0075C744 /* OnGoingCall.xib */; };
+		9D2B135124C9B82B0075C744 /* CallEnded.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D2B134024C9B82A0075C744 /* CallEnded.xib */; };
+		9D2B135324C9B82B0075C744 /* OutGoingCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2B134224C9B82A0075C744 /* OutGoingCall.swift */; };
+		9D2B135524C9B82B0075C744 /* CallEnded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2B134424C9B82A0075C744 /* CallEnded.swift */; };
+		9D2B135624C9B82B0075C744 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2B134524C9B82A0075C744 /* AppDelegate.swift */; };
+		9D2B135724C9B82B0075C744 /* IncomingCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2B134624C9B82A0075C744 /* IncomingCall.swift */; };
+		9D2B135924C9B82B0075C744 /* lottie_file_call_ripple.json in Resources */ = {isa = PBXBuildFile; fileRef = 9D2B134824C9B82A0075C744 /* lottie_file_call_ripple.json */; };
+		9D2B135A24C9B82B0075C744 /* IncomingCall.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D2B134924C9B82A0075C744 /* IncomingCall.xib */; };
+		9D2B135B24C9B82B0075C744 /* OutGoingCall.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D2B134A24C9B82B0075C744 /* OutGoingCall.xib */; };
+		9D2B135C24C9B82B0075C744 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D2B134B24C9B82B0075C744 /* Assets.xcassets */; };
+		9D2B135E24C9B8520075C744 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D2B135D24C9B8520075C744 /* LaunchScreen.storyboard */; };
+		9D2B136024C9B9750075C744 /* CircleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2B135F24C9B9750075C744 /* CircleButton.swift */; };
+		9D2B136324C9B9FA0075C744 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2B136124C9B9F90075C744 /* ViewController.swift */; };
+		9D2B136424C9B9FA0075C744 /* TwilioHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2B136224C9B9F90075C744 /* TwilioHandler.swift */; };
+		C376F60D2514A36800A52F57 /* Beep tone_BLASTWAVEFX_30241.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C376F60C2514A36700A52F57 /* Beep tone_BLASTWAVEFX_30241.mp3 */; };
+		C376F60F2514A37500A52F57 /* iphoneDefault.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C376F60E2514A37500A52F57 /* iphoneDefault.mp3 */; };
+		C396EF072524D8A700495DFD /* TwilioSetAudioDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = C396EF062524D8A700495DFD /* TwilioSetAudioDevice.swift */; };
+		C3D2EEC7252B339E0051285C /* iphoneDefault.wav in Resources */ = {isa = PBXBuildFile; fileRef = C3D2EEC6252B339E0051285C /* iphoneDefault.wav */; };
+		C3D2EEC9252B33F00051285C /* ringtone_out_going.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C3D2EEC8252B33F00051285C /* ringtone_out_going.mp3 */; };
+		ED7E6B75B7E3DC2B501F9238 /* Pods_Test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19050EACAABBACBA6338D1A3 /* Pods_Test.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		19050EACAABBACBA6338D1A3 /* Pods_Test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D2B132424C9B7EE0075C744 /* Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D2B133D24C9B82A0075C744 /* OnGoingCall.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnGoingCall.swift; sourceTree = "<group>"; };
+		9D2B133E24C9B82A0075C744 /* Sample.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Sample.storyboard; sourceTree = "<group>"; };
+		9D2B133F24C9B82A0075C744 /* OnGoingCall.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OnGoingCall.xib; sourceTree = "<group>"; };
+		9D2B134024C9B82A0075C744 /* CallEnded.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CallEnded.xib; sourceTree = "<group>"; };
+		9D2B134224C9B82A0075C744 /* OutGoingCall.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OutGoingCall.swift; sourceTree = "<group>"; };
+		9D2B134324C9B82A0075C744 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D2B134424C9B82A0075C744 /* CallEnded.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallEnded.swift; sourceTree = "<group>"; };
+		9D2B134524C9B82A0075C744 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9D2B134624C9B82A0075C744 /* IncomingCall.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IncomingCall.swift; sourceTree = "<group>"; };
+		9D2B134824C9B82A0075C744 /* lottie_file_call_ripple.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = lottie_file_call_ripple.json; sourceTree = "<group>"; };
+		9D2B134924C9B82A0075C744 /* IncomingCall.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IncomingCall.xib; sourceTree = "<group>"; };
+		9D2B134A24C9B82B0075C744 /* OutGoingCall.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OutGoingCall.xib; sourceTree = "<group>"; };
+		9D2B134B24C9B82B0075C744 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9D2B135D24C9B8520075C744 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9D2B135F24C9B9750075C744 /* CircleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleButton.swift; sourceTree = "<group>"; };
+		9D2B136124C9B9F90075C744 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9D2B136224C9B9F90075C744 /* TwilioHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwilioHandler.swift; sourceTree = "<group>"; };
+		B23191111A0BFD1E3562F31C /* Pods-Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test.release.xcconfig"; path = "Target Support Files/Pods-Test/Pods-Test.release.xcconfig"; sourceTree = "<group>"; };
+		C376F60C2514A36700A52F57 /* Beep tone_BLASTWAVEFX_30241.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Beep tone_BLASTWAVEFX_30241.mp3"; sourceTree = "<group>"; };
+		C376F60E2514A37500A52F57 /* iphoneDefault.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = iphoneDefault.mp3; sourceTree = "<group>"; };
+		C396EF062524D8A700495DFD /* TwilioSetAudioDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwilioSetAudioDevice.swift; sourceTree = "<group>"; };
+		C3D2EEC6252B339E0051285C /* iphoneDefault.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = iphoneDefault.wav; sourceTree = "<group>"; };
+		C3D2EEC8252B33F00051285C /* ringtone_out_going.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ringtone_out_going.mp3; sourceTree = "<group>"; };
+		EE7299EF818B4F95EB3736F5 /* Pods-Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test.debug.xcconfig"; path = "Target Support Files/Pods-Test/Pods-Test.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9D2B132124C9B7EE0075C744 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED7E6B75B7E3DC2B501F9238 /* Pods_Test.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27E698B2991561925B96C6C9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EE7299EF818B4F95EB3736F5 /* Pods-Test.debug.xcconfig */,
+				B23191111A0BFD1E3562F31C /* Pods-Test.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6415BAA90EEBE7D9C5EF992F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				19050EACAABBACBA6338D1A3 /* Pods_Test.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9D2B131B24C9B7EE0075C744 = {
+			isa = PBXGroup;
+			children = (
+				9D2B132624C9B7EE0075C744 /* Test */,
+				9D2B132524C9B7EE0075C744 /* Products */,
+				27E698B2991561925B96C6C9 /* Pods */,
+				6415BAA90EEBE7D9C5EF992F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9D2B132524C9B7EE0075C744 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9D2B132424C9B7EE0075C744 /* Test.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9D2B132624C9B7EE0075C744 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				9D504B6A24CB247600086388 /* Resources */,
+				9D2B136224C9B9F90075C744 /* TwilioHandler.swift */,
+				9D2B136124C9B9F90075C744 /* ViewController.swift */,
+				9D2B135F24C9B9750075C744 /* CircleButton.swift */,
+				9D2B135D24C9B8520075C744 /* LaunchScreen.storyboard */,
+				9D2B134524C9B82A0075C744 /* AppDelegate.swift */,
+				9D2B134B24C9B82B0075C744 /* Assets.xcassets */,
+				9D2B134424C9B82A0075C744 /* CallEnded.swift */,
+				9D2B134024C9B82A0075C744 /* CallEnded.xib */,
+				9D2B134624C9B82A0075C744 /* IncomingCall.swift */,
+				9D2B134924C9B82A0075C744 /* IncomingCall.xib */,
+				9D2B134324C9B82A0075C744 /* Info.plist */,
+				9D2B134824C9B82A0075C744 /* lottie_file_call_ripple.json */,
+				9D2B133D24C9B82A0075C744 /* OnGoingCall.swift */,
+				9D2B133F24C9B82A0075C744 /* OnGoingCall.xib */,
+				9D2B134224C9B82A0075C744 /* OutGoingCall.swift */,
+				9D2B134A24C9B82B0075C744 /* OutGoingCall.xib */,
+				9D2B133E24C9B82A0075C744 /* Sample.storyboard */,
+				C396EF062524D8A700495DFD /* TwilioSetAudioDevice.swift */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
+		9D504B6A24CB247600086388 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C3D2EEC8252B33F00051285C /* ringtone_out_going.mp3 */,
+				C3D2EEC6252B339E0051285C /* iphoneDefault.wav */,
+				C376F60E2514A37500A52F57 /* iphoneDefault.mp3 */,
+				C376F60C2514A36700A52F57 /* Beep tone_BLASTWAVEFX_30241.mp3 */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9D2B132324C9B7EE0075C744 /* Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D2B133824C9B7F20075C744 /* Build configuration list for PBXNativeTarget "Test" */;
+			buildPhases = (
+				18DAE66B4AC49F1757D307F9 /* [CP] Check Pods Manifest.lock */,
+				9D2B132024C9B7EE0075C744 /* Sources */,
+				9D2B132124C9B7EE0075C744 /* Frameworks */,
+				9D2B132224C9B7EE0075C744 /* Resources */,
+				EA08B2ACD1F7F925FD7D1427 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Test;
+			productName = Test;
+			productReference = 9D2B132424C9B7EE0075C744 /* Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9D2B131C24C9B7EE0075C744 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = Nitin;
+				TargetAttributes = {
+					9D2B132324C9B7EE0075C744 = {
+						CreatedOnToolsVersion = 11.5;
+						LastSwiftMigration = 1150;
+					};
+				};
+			};
+			buildConfigurationList = 9D2B131F24C9B7EE0075C744 /* Build configuration list for PBXProject "Test" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9D2B131B24C9B7EE0075C744;
+			productRefGroup = 9D2B132524C9B7EE0075C744 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9D2B132324C9B7EE0075C744 /* Test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9D2B132224C9B7EE0075C744 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D2B135124C9B82B0075C744 /* CallEnded.xib in Resources */,
+				C3D2EEC7252B339E0051285C /* iphoneDefault.wav in Resources */,
+				C376F60F2514A37500A52F57 /* iphoneDefault.mp3 in Resources */,
+				9D2B135C24C9B82B0075C744 /* Assets.xcassets in Resources */,
+				C3D2EEC9252B33F00051285C /* ringtone_out_going.mp3 in Resources */,
+				9D2B135924C9B82B0075C744 /* lottie_file_call_ripple.json in Resources */,
+				9D2B135A24C9B82B0075C744 /* IncomingCall.xib in Resources */,
+				9D2B134F24C9B82B0075C744 /* Sample.storyboard in Resources */,
+				9D2B135B24C9B82B0075C744 /* OutGoingCall.xib in Resources */,
+				C376F60D2514A36800A52F57 /* Beep tone_BLASTWAVEFX_30241.mp3 in Resources */,
+				9D2B135024C9B82B0075C744 /* OnGoingCall.xib in Resources */,
+				9D2B135E24C9B8520075C744 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		18DAE66B4AC49F1757D307F9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Test-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA08B2ACD1F7F925FD7D1427 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Test/Pods-Test-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Test/Pods-Test-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Test/Pods-Test-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9D2B132024C9B7EE0075C744 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D2B136024C9B9750075C744 /* CircleButton.swift in Sources */,
+				9D2B135724C9B82B0075C744 /* IncomingCall.swift in Sources */,
+				9D2B135624C9B82B0075C744 /* AppDelegate.swift in Sources */,
+				9D2B135524C9B82B0075C744 /* CallEnded.swift in Sources */,
+				C396EF072524D8A700495DFD /* TwilioSetAudioDevice.swift in Sources */,
+				9D2B134E24C9B82B0075C744 /* OnGoingCall.swift in Sources */,
+				9D2B136424C9B9FA0075C744 /* TwilioHandler.swift in Sources */,
+				9D2B135324C9B82B0075C744 /* OutGoingCall.swift in Sources */,
+				9D2B136324C9B9FA0075C744 /* ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9D2B133624C9B7F20075C744 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9D2B133724C9B7F20075C744 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9D2B133924C9B7F20075C744 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE7299EF818B4F95EB3736F5 /* Pods-Test.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Test/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.plugin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9D2B133A24C9B7F20075C744 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B23191111A0BFD1E3562F31C /* Pods-Test.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Test/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.plugin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9D2B131F24C9B7EE0075C744 /* Build configuration list for PBXProject "Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D2B133624C9B7F20075C744 /* Debug */,
+				9D2B133724C9B7F20075C744 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D2B133824C9B7F20075C744 /* Build configuration list for PBXNativeTarget "Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D2B133924C9B7F20075C744 /* Debug */,
+				9D2B133A24C9B7F20075C744 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9D2B131C24C9B7EE0075C744 /* Project object */;
+}

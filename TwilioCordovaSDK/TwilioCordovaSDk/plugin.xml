@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="com-twiliocordova-plugins-swift" version="0.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+  <name>TwilioCordovaSDK</name>
+  <js-module name="TwilioCordovaSwift" src="www/TwilioCordovaSwift.js">
+    <clobbers target="twilioCordovaSwift" />
+  </js-module>
+  <platform name="ios">
+    <config-file target="config.xml" parent="/*">
+      <feature name="TwilioCordovaSwift">
+        <param name="ios-package" value="TwilioCordovaSwift" />
+      </feature>
+    </config-file>
+    
+    <podspec>
+         <config>
+             <source url="https://github.com/CocoaPods/Specs.git"/>
+         </config>
+         <pods use-frameworks="true" >
+             <pod name="TwilioVideo"/> <!-- spec="~> 3.4" -->
+                 <pod name="SDWebImage"/>
+                 <pod name="lottie-ios"/>
+         </pods>
+    </podspec>
+    
+    
+    <source-file src="src/ios/TwilioCordovaSwift.swift" />
+    <source-file src="src/ios/ViewController.swift" />
+    <source-file src="src/ios/CallEnded.swift"/>
+    <source-file src="src/ios/IncomingCall.swift"/>
+    <source-file src="src/ios/OutGoingCall.swift"/>
+    <source-file src="src/ios/OnGoingCall.swift"/>
+    <source-file src="src/ios/TwilioHandler.swift"/>
+    <source-file src="src/ios/CircleButton.swift"/>
+    <source-file src="src/ios/TwilioSetAudioDevice.swift"/>
+
+
+    <resource-file src="src/ios/Assets.xcassets"/>
+    <resource-file src="src/ios/Sample.storyboard"/>
+    <resource-file src="src/ios/CallEnded.xib"/>
+    <resource-file src="src/ios/IncomingCall.xib"/>
+    <resource-file src="src/ios/OutGoingCall.xib"/>
+    <resource-file src="src/ios/OnGoingCall.xib"/>
+    <resource-file src="src/ios/lottie_file_call_ripple.json"/>
+    <resource-file src="src/ios/ringtone_out_going.mp3"/>
+    <resource-file src="src/ios/Beep tone_BLASTWAVEFX_30241.mp3"/>
+    <resource-file src="src/ios/iphoneDefault.mp3"/>
+    <resource-file src="src/ios/iphoneDefault.wav"/>
+
+
+  </platform>
+</plugin>

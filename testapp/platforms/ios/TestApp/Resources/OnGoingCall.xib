@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="ipad9_7" orientation="portrait" layout="fullscreen" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Ubuntu-M.ttf">
+            <string>Ubuntu-Medium</string>
+        </array>
+        <array key="Ubuntu-R.ttf">
+            <string>Ubuntu</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="OnGoingCall" customModule="Test" customModuleProvider="target">
+            <connections>
+                <outlet property="callDurationLabel" destination="Swo-Ig-oCX" id="K4Z-JG-eTS"/>
+                <outlet property="callTypeImage" destination="vLF-Kv-QVh" id="ZnU-8k-Tx8"/>
+                <outlet property="callTypeLabel" destination="lic-jA-TXv" id="76l-Hl-Fev"/>
+                <outlet property="cancelButton" destination="K0B-fq-tMj" id="Bu8-vK-Gqd"/>
+                <outlet property="contentView" destination="iN0-l3-epB" id="FyV-cI-dLb"/>
+                <outlet property="participantNameLabel" destination="hPK-dl-PQZ" id="3Re-Hf-tX7"/>
+                <outlet property="recevierVideoRenderView" destination="0kH-rm-e8Q" id="3Qk-oa-vFj"/>
+                <outlet property="userImage" destination="PzZ-WU-JPL" id="Rqk-9l-ofT"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" userLabel="Content View">
+            <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0kH-rm-e8Q" customClass="TVIVideoView">
+                    <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="PzZ-WU-JPL">
+                    <rect key="frame" x="260" y="120" width="248" height="248"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="248" id="lz4-wg-d8G"/>
+                        <constraint firstAttribute="width" constant="248" id="nBU-vn-6eo"/>
+                    </constraints>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="lz4-wg-d8G"/>
+                            <exclude reference="nBU-vn-6eo"/>
+                        </mask>
+                    </variation>
+                    <variation key="heightClass=regular-widthClass=regular">
+                        <mask key="constraints">
+                            <include reference="lz4-wg-d8G"/>
+                            <include reference="nBU-vn-6eo"/>
+                        </mask>
+                    </variation>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K0B-fq-tMj">
+                    <rect key="frame" x="334" y="864" width="100" height="100"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="100" id="Pmn-eO-Otu"/>
+                        <constraint firstAttribute="height" constant="100" id="vTa-Hr-TNY"/>
+                    </constraints>
+                    <state key="normal" image="Audio_Calling_Stop"/>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Video Call" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lic-jA-TXv">
+                    <rect key="frame" x="195.5" y="60.5" width="84" height="24"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="24" id="ts5-fj-Sec"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Ubuntu" family="Ubuntu" pointSize="18.600000381469727"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-----" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZX8-No-Lod">
+                    <rect key="frame" x="151" y="62" width="36.5" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="LPf-a3-CY9"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Ubuntu" family="Ubuntu" pointSize="18.600000381469727"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Swo-Ig-oCX">
+                    <rect key="frame" x="96" y="62.5" width="47" height="20"/>
+                    <fontDescription key="fontDescription" name="Ubuntu" family="Ubuntu" pointSize="18.600000381469727"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Video_Calling_Top" translatesAutoresizingMaskIntoConstraints="NO" id="vLF-Kv-QVh">
+                    <rect key="frame" x="23.5" y="20" width="60" height="60"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="60" id="gvV-4e-RNR"/>
+                        <constraint firstAttribute="width" constant="60" id="rGM-rW-GRz"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hPK-dl-PQZ">
+                    <rect key="frame" x="96" y="20" width="662" height="35"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="ian-fq-jlV"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Ubuntu-Medium" family="Ubuntu" pointSize="27.899999618530273"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="hPK-dl-PQZ" firstAttribute="top" secondItem="vLF-Kv-QVh" secondAttribute="top" id="00K-tc-zyI"/>
+                <constraint firstItem="Swo-Ig-oCX" firstAttribute="centerY" secondItem="lic-jA-TXv" secondAttribute="centerY" id="2PV-F1-4pM"/>
+                <constraint firstItem="ZX8-No-Lod" firstAttribute="centerY" secondItem="lic-jA-TXv" secondAttribute="centerY" id="5i3-TP-m0i"/>
+                <constraint firstItem="lic-jA-TXv" firstAttribute="leading" secondItem="ZX8-No-Lod" secondAttribute="trailing" constant="8" id="6v5-J7-dgZ"/>
+                <constraint firstItem="hPK-dl-PQZ" firstAttribute="leading" secondItem="vLF-Kv-QVh" secondAttribute="trailing" constant="12.699999999999999" id="7kd-S9-Vm2"/>
+                <constraint firstItem="Swo-Ig-oCX" firstAttribute="leading" secondItem="hPK-dl-PQZ" secondAttribute="leading" id="BEh-Cx-ry0"/>
+                <constraint firstItem="ZX8-No-Lod" firstAttribute="centerY" secondItem="Swo-Ig-oCX" secondAttribute="centerY" id="Dme-Gh-5Cg"/>
+                <constraint firstItem="vLF-Kv-QVh" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="23.5" id="MKf-Dz-vKS"/>
+                <constraint firstItem="0kH-rm-e8Q" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="N0y-0b-Bfw"/>
+                <constraint firstItem="PzZ-WU-JPL" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" constant="-360" id="QKQ-8u-dzI"/>
+                <constraint firstItem="PzZ-WU-JPL" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" constant="-60" id="RSM-3O-74F"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="K0B-fq-tMj" secondAttribute="bottom" constant="60" id="Ua2-eC-tlU"/>
+                <constraint firstItem="0kH-rm-e8Q" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="bhh-MQ-bg7"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="hPK-dl-PQZ" secondAttribute="trailing" constant="10" id="bub-oy-wcj"/>
+                <constraint firstItem="0kH-rm-e8Q" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="cWy-ds-uVM"/>
+                <constraint firstItem="0kH-rm-e8Q" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="dp6-nl-ZGr"/>
+                <constraint firstItem="PzZ-WU-JPL" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" id="h2Y-FH-MOF"/>
+                <constraint firstItem="lic-jA-TXv" firstAttribute="top" secondItem="hPK-dl-PQZ" secondAttribute="bottom" constant="5.5" id="i2q-iR-sLY"/>
+                <constraint firstItem="vLF-Kv-QVh" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="20" id="pES-3B-TSJ"/>
+                <constraint firstItem="PzZ-WU-JPL" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="120" id="pOh-ro-hGV"/>
+                <constraint firstItem="ZX8-No-Lod" firstAttribute="leading" secondItem="Swo-Ig-oCX" secondAttribute="trailing" constant="8" id="wbN-hy-iIf"/>
+                <constraint firstItem="Swo-Ig-oCX" firstAttribute="height" secondItem="lic-jA-TXv" secondAttribute="height" multiplier="0.833333" id="wwe-Yc-OGD"/>
+                <constraint firstItem="K0B-fq-tMj" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" id="ymm-v0-tSH"/>
+                <constraint firstItem="PzZ-WU-JPL" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="60" id="zo5-Yt-LGE"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="QKQ-8u-dzI"/>
+                    <exclude reference="RSM-3O-74F"/>
+                    <exclude reference="h2Y-FH-MOF"/>
+                    <exclude reference="zo5-Yt-LGE"/>
+                </mask>
+            </variation>
+            <variation key="heightClass=regular-widthClass=compact">
+                <mask key="constraints">
+                    <include reference="QKQ-8u-dzI"/>
+                    <include reference="RSM-3O-74F"/>
+                    <include reference="zo5-Yt-LGE"/>
+                </mask>
+            </variation>
+            <variation key="heightClass=regular-widthClass=regular">
+                <mask key="constraints">
+                    <include reference="h2Y-FH-MOF"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="137.68115942028987" y="105.16304347826087"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Audio_Calling_Stop" width="100" height="100"/>
+        <image name="Video_Calling_Top" width="125" height="125"/>
+    </resources>
+</document>

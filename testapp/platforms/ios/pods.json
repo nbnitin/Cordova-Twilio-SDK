@@ -1,0 +1,28 @@
+{
+    "declarations": {
+        "use_frameworks!": {
+            "declaration": "use_frameworks!",
+            "count": 1
+        }
+    },
+    "sources": {
+        "https://github.com/CocoaPods/Specs.git": {
+            "source": "https://github.com/CocoaPods/Specs.git",
+            "count": 1
+        }
+    },
+    "libraries": {
+        "TwilioVideo": {
+            "name": "TwilioVideo",
+            "count": 1
+        },
+        "SDWebImage": {
+            "name": "SDWebImage",
+            "count": 1
+        },
+        "lottie-ios": {
+            "name": "lottie-ios",
+            "count": 1
+        }
+    }
+}

@@ -1,0 +1,26 @@
+PODS:
+  - lottie-ios (3.1.8)
+  - SDWebImage (5.9.0):
+    - SDWebImage/Core (= 5.9.0)
+  - SDWebImage/Core (5.9.0)
+  - TwilioVideo (3.7.0)
+
+DEPENDENCIES:
+  - lottie-ios
+  - SDWebImage
+  - TwilioVideo
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - lottie-ios
+    - SDWebImage
+    - TwilioVideo
+
+SPEC CHECKSUMS:
+  lottie-ios: 48fac6be217c76937e36e340e2d09cf7b10b7f5f
+  SDWebImage: 62ae4a18473520c67b79e9724c31a63599cc9423
+  TwilioVideo: ac463041934869f6e3794f22e57fbe8db1f62814
+
+PODFILE CHECKSUM: 3ba3ad0b914b922c17720542e3bb5a4f92526485
+
+COCOAPODS: 1.9.3

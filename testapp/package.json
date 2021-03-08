@@ -1,0 +1,20 @@
+{
+  "devDependencies": {
+    "cordova-plugin-whitelist": "1",
+    "nitin": "file:../TwilioCordovaSDK/TwilioCordovaSDk"
+  },
+  "cordova": {
+    "plugins": {
+      "cordova-plugin-whitelist": {},
+      "cordova-plugin-add-swift-support": {},
+      "com-twiliocordova-plugins-swift": {}
+    },
+    "platforms": [
+      "ios"
+    ]
+  },
+  "dependencies": {
+    "cordova-ios": "^5.1.1",
+    "cordova-plugin-add-swift-support": "2.0.2"
+  }
+}

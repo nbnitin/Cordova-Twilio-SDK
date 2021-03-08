@@ -1,0 +1,17 @@
+{
+  "name": "nitin",
+  "version": "0.1.0",
+  "description": "Twilio video and voice sdk for cordova",
+  "cordova": {
+    "id": "com-twiliocordova-plugins-swift",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "author": "Nitin",
+  "license": "ISC"
+}
